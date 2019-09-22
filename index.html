@@ -27,18 +27,17 @@
 </head>
 
 <body>
-  <main>
-    <section class="editor">
-      <h1 class="editor__header">My editor</h1>
-      <textarea class="editor__area editor__area--js" name="textarea" placeholder="wpisz swoje dane"></textarea>
-      <div class="editor__buttons">
-        <button class="editor__button editor__button--load">load</button>
-        <button class="editor__button editor__button--save">save</button>
+  <main class="main">
+    <h1 class="header">My editor</h1>
+    <form class="form">
+      <label for="area" class="form__label">Your message</label>
+      <textarea class="form__area form__area--js" id="area" name="textarea" placeholder="wpisz swoje dane"></textarea>
+      <div class="form__buttons">
+        <button class="form__button form__button--load">load</button>
+        <button class="form__button form__button--save">save</button>
       </div>
-    </section>
-
+    </form>
   </main>
-
   <script src="js/main.js"></script>
 </body>
 
