@@ -4,13 +4,49 @@
 
 html {
   box-sizing: border-box;
+  font-family: roboto, sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: $whity;
+  background: $brown;
+}
+
+.editor {
+  max-width: 60vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+
+  &__area {
+    display: block;
+    width: 60vw;
+    height: 10rem;
+  }
+
+  &__buttons {
+    align-self: flex-end;
+  }
+
+  &__button {
+    border-style: none;
+    background-color: $whity;
+    border-radius: 3px;
+    padding: 5px 20px;
+    margin-top: 1rem;
+    margin-left: .8rem;
+    transition: .2s;
+
+    &:hover {
+      background-color: $brown;
+      color: $whity;
+      border: 1px solid $whity;
+    }
+  }
 }
