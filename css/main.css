@@ -319,8 +319,8 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #F5EDF0;
-  background: #3D2C2E; }
+  color: #e5e2ec;
+  background: #424C55; }
 
 .editor {
   max-width: 60vw;
@@ -337,13 +337,14 @@ body {
     width: 60vw;
     height: 10rem;
     padding: 20px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    background-color: #e5e2ec; }
   .editor__buttons {
     -ms-flex-item-align: end;
         align-self: flex-end; }
   .editor__button {
     border-style: none;
-    background-color: #F5EDF0;
+    background-color: #e5e2ec;
     border-radius: 3px;
     padding: 5px 20px;
     margin-top: 1rem;
@@ -352,8 +353,8 @@ body {
     -o-transition: .2s;
     transition: .2s; }
     .editor__button:hover {
-      background-color: #3D2C2E;
-      color: #F5EDF0;
-      border: 1px solid #F5EDF0; }
+      background-color: #424C55;
+      color: #e5e2ec;
+      border: 1px solid #e5e2ec; }
 
 /*# sourceMappingURL=main.css.map */
